@@ -1,0 +1,22 @@
+{
+  "name": "js---counting-sheeps",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test-w": "vitest",
+    "test:unit": "vitest --environment jsdom",
+    "test-cover": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "vero",
+  "license": "ISC",
+  "description": ""
+}
